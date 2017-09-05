@@ -14,7 +14,7 @@ Ajax不是一个技术，它是几种技术的结合体，每种技术都有其�
 在一起就成为了功能强大的新技术，用于创建快速动态网页的技术。
 
 ### 2、宏观Ajax
-![宏观Ajax][2]
+![宏观Ajax][1]
 ### 3、Ajax包括：
  >1. HTML，用于建立web表单
  >2. DOM，用于动态显示和交互
@@ -26,9 +26,9 @@ Ajax不是一个技术，它是几种技术的结合体，每种技术都有其�
 Ajax工作原理
 ---
 Web应用程序的原理图，由客户端向服务器提交页面请求，再由服务器通过HTTP传给客户端生成浏览页面。服务器端承担大量的工作，客户端只负责显示。
-![传统的Web应用程序原理图](./img/使用Ajax的Web应用程序.png)
+![传统的Web应用程序原理图][1]
 使用Ajax应用程序的工作原理如下图，可见通过Ajax在浏览器与用户交互方面有了很大改进，用户不用为提交Form表单而长时间等待服务器响应，提高用户体验度，而且通过Ajax也可以开发出更加华丽的Web交互页面。客户端界面和Ajax引擎都是在客户端运行，这样大量的服务器工作可以在Ajax引擎处实现，减轻了服务器端的负担。
-![使用Ajax的Web应用程序原理图](./img/传统Web应用程序.png)
+![使用Ajax的Web应用程序原理图][2]
 
 ### Ajax的优缺点：
 
@@ -120,7 +120,6 @@ js部分的代码：
 Web开发一直在追求界面友好，人性化，较高的用户体验度以及更加美观等等，我相信只要从点点滴滴做起，任何问题都不是问题。
 
 
-  [1]: http://img.blog.csdn.net/20140814192140794?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaml1cWl5dWxpYW5n/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast
-  [2]: http://img.blog.csdn.net/20151201214739872?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast
-  [3]: http://img.blog.csdn.net/20140814211608784?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaml1cWl5dWxpYW5n/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast
-  [4]: http://img.blog.csdn.net/20140814211555883?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvaml1cWl5dWxpYW5n/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast
+  [1]: ./img/宏观Ajax.png
+  [2]: ./img/传统Web应用程序.png
+  [3]: ./img/使用Ajax的Web应用程序.png
